@@ -8,19 +8,19 @@ Blog have Create Post page (/posts/new route)
 User is able to create a new post (on page /posts/new)
 
 # Installation
-Clone Github repository and browse to Blog directory
+1) Clone Github repository and browse to Blog directory
 
 git clone https://github.com/maximusII/Blog.git
 
 cd Blog
 
-Then run the app with 
+2) Then run the app with 
 
 npm install 
 
 npm run dev
 
-Now you can access the app by navigating to 
+3) Now you can access the app by navigating to 
 
 http://localhost:3000
 
