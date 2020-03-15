@@ -4,8 +4,48 @@ import * as Fetcher from '../../helpers/fetcher';
 import styled from 'styled-components';
 
 const Title = styled.h1`
+    font-family: roboto;
     text-align: center;
-    color: red;
+    display: block;
+    margin-top: 50px;
+`;
+
+const Input = styled.input`
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    background: papayawhip;
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+`;
+
+const Textarea = styled.textarea`
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    background: papayawhip;
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+    height: 100px;
+    resize: none;
+`;
+
+const Button = styled(Input)`
+    cursor: pointer;
+    color: blue;
+    width: 100px;
+`;
+
+const Form = styled.form`
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 `;
 
 export const New: React.FC = () => {
@@ -38,17 +78,15 @@ export const New: React.FC = () => {
     return (
         <Layout>
             <Title>Fill the form below</Title>
-            <form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit}>
                 <label>
-                    Title
-                    <input type="text" name="title" value={newPost.title} onChange={handleChange} />
+                    <Input type="text" name="title" placeholder="Title" value={newPost.title} onChange={handleChange} />
                 </label>
                 <label>
-                    Post
-                    <textarea name="body" value={newPost.body} onChange={handleChange} />
+                    <Textarea name="body" placeholder="Post" value={newPost.body} onChange={handleChange} />
                 </label>
-                <input type="submit" value="Send" />
-            </form>
+                <Button type="submit" value="Send" />
+            </Form>
         </Layout>
     );
 };

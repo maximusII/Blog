@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-export function get(): void {
+export function get() {
     return axios
         .get(`https://simple-blog-api.crew.red/posts`)
         .then(function(response: { [key: string]: string | number }) {
@@ -13,7 +13,7 @@ export function get(): void {
         });
 }
 
-export function post(title: string, body: string): void {
+export function post(title: string, body: string) {
     return axios
         .post(`https://simple-blog-api.crew.red/posts`, {
             title: title,
