@@ -9,3 +9,9 @@ User is able to create a new post (on page /posts/new)
 
 # Installation
 Clone Github repository https://github.com/maximusII/Blog.git
+Then you can run it with: npm install; npm run dev
+Now you can access the app by navigating to http://localhost:3000
+
+# Technical Details
+Code has been written with TypeScript
+
