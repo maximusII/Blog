@@ -17,7 +17,8 @@ const Input = styled.input`
     background: papayawhip;
     border: none;
     border-radius: 3px;
-    width: 400px;
+    width: 200px;
+    max-width: 100vw;
 `;
 
 const Textarea = styled.textarea`
@@ -27,7 +28,8 @@ const Textarea = styled.textarea`
     background: papayawhip;
     border: none;
     border-radius: 3px;
-    width: 400px;
+    width: 200px;
+    max-width: 100vw;
     height: 100px;
     resize: none;
 `;
@@ -39,13 +41,12 @@ const Button = styled(Input)`
 `;
 
 const Form = styled.form`
-    padding: 10px;
-    margin: 10px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 100vw;
 `;
 
 export const New: React.FC = () => {

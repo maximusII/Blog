@@ -9372,7 +9372,7 @@ var _jsxFileName = "C:\\Coding\\TestTaskByDevelopsToday\\Blog\\pages\\posts\\new
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject5() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding: 10px;\n    margin: 10px;\n    border: none;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    border: none;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    max-width: 100vw;\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -9392,7 +9392,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 18px;\n    padding: 10px;\n    margin: 10px;\n    background: papayawhip;\n    border: none;\n    border-radius: 3px;\n    width: 400px;\n    height: 100px;\n    resize: none;\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 18px;\n    padding: 10px;\n    margin: 10px;\n    background: papayawhip;\n    border: none;\n    border-radius: 3px;\n    width: 200px;\n    max-width: 100vw;\n    height: 100px;\n    resize: none;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -9402,7 +9402,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 18px;\n    padding: 10px;\n    margin: 10px;\n    background: papayawhip;\n    border: none;\n    border-radius: 3px;\n    width: 400px;\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 18px;\n    padding: 10px;\n    margin: 10px;\n    background: papayawhip;\n    border: none;\n    border-radius: 3px;\n    width: 200px;\n    max-width: 100vw;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -9474,26 +9474,26 @@ var New = function New() {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["Layout"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 80
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 81
     },
     __self: this
   }, "Fill the form below"), __jsx(Form, {
     onSubmit: handleSubmit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: this
   }, __jsx("label", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: this
   }, __jsx(Input, {
@@ -9504,13 +9504,13 @@ var New = function New() {
     onChange: handleChange,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 84
     },
     __self: this
   })), __jsx("label", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 86
     },
     __self: this
   }, __jsx(Textarea, {
@@ -9520,7 +9520,7 @@ var New = function New() {
     onChange: handleChange,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: this
   })), __jsx(Button, {
@@ -9528,7 +9528,7 @@ var New = function New() {
     value: "Send",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 89
     },
     __self: this
   })));
@@ -9537,7 +9537,7 @@ var New = function New() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fposts%2Fnew&absolutePagePath=C%3A%5CCoding%5CTestTaskByDevelopsToday%5CBlog%5Cpages%5Cposts%5Cnew.tsx ***!
   \****************************************************************************************************************************************************/
@@ -9560,5 +9560,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=new.js.map

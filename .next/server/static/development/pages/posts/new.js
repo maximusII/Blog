@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1959,7 +1959,8 @@ const Input = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.input`
     background: papayawhip;
     border: none;
     border-radius: 3px;
-    width: 400px;
+    width: 200px;
+    max-width: 100vw;
 `;
 const Textarea = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.textarea`
     font-size: 18px;
@@ -1968,7 +1969,8 @@ const Textarea = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.textar
     background: papayawhip;
     border: none;
     border-radius: 3px;
-    width: 400px;
+    width: 200px;
+    max-width: 100vw;
     height: 100px;
     resize: none;
 `;
@@ -1978,13 +1980,12 @@ const Button = styled_components__WEBPACK_IMPORTED_MODULE_3___default()(Input)`
     width: 100px;
 `;
 const Form = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.form`
-    padding: 10px;
-    margin: 10px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 100vw;
 `;
 const New = () => {
   const {
@@ -2033,26 +2034,26 @@ const New = () => {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["Layout"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 80
     },
     __self: undefined
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 81
     },
     __self: undefined
   }, "Fill the form below"), __jsx(Form, {
     onSubmit: handleSubmit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: undefined
   }, __jsx("label", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: undefined
   }, __jsx(Input, {
@@ -2063,13 +2064,13 @@ const New = () => {
     onChange: handleChange,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 84
     },
     __self: undefined
   })), __jsx("label", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 86
     },
     __self: undefined
   }, __jsx(Textarea, {
@@ -2079,7 +2080,7 @@ const New = () => {
     onChange: handleChange,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: undefined
   })), __jsx(Button, {
@@ -2087,7 +2088,7 @@ const New = () => {
     value: "Send",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 89
     },
     __self: undefined
   })));
@@ -2096,7 +2097,7 @@ const New = () => {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!***********************************!*\
   !*** multi ./pages/posts/new.tsx ***!
   \***********************************/
